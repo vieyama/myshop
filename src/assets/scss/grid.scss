@@ -1,0 +1,18 @@
+.col {
+    height: auto;
+    text-align: center;
+}
+
+.col-6 {
+    width: 50%;
+    height: auto;
+    text-align: center;
+}
+
+.row {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}

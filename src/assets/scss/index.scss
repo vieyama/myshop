@@ -1,0 +1,89 @@
+@import './notfound.scss';
+@import './header.scss';
+@import './grid.scss';
+@import './products.scss';
+@import '~antd/dist/antd.css';
+
+@import url('https://fonts.googleapis.com/css2?family=Finger+Paint&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+button {
+    border: none;
+    background: cornflowerblue;
+    color: cornsilk;
+    padding: 10px 30px;
+    border-radius: 10px;
+    cursor: pointer;
+
+    &:hover {
+        background: rgb(84, 129, 212);
+    }
+    &:focus {
+        border: none;
+        outline: 0 !important;
+    }
+}
+
+button.link {
+    border: 1px solid cornflowerblue;
+    background: transparent;
+    color: rgb(27, 27, 27);
+    padding: 10px 10px;
+    border-radius: 10px;
+    cursor: pointer;
+
+    &:hover {
+        background: rgb(228, 228, 228);
+    }
+    &:focus {
+        border: none;
+        outline: 0 !important;
+    }
+}
+
+.content {
+    min-height: 60vh;
+    padding: 90px 40px 40px 40px;
+}
+
+footer {
+    font-weight: 600;
+    padding: 25px;
+    text-align: center;
+}
+
+input[type='text'],
+input[type='password'],
+input[type='number'],
+input[type='file'] {
+    display: block;
+    padding: 12px 20px;
+    width: 100%;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 3px solid #ccc;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+}
+
+input[type='text']:focus {
+    border: 3px solid #555;
+}
+
+a {
+    color: #1560e7;
+    text-decoration: none;
+}
+
+.login-page {
+    width: 400px;
+    padding: 30px;
+    -webkit-box-shadow: 0 15px 10px #777;
+    -moz-box-shadow: 0 15px 10px #777;
+    box-shadow: 0 7px 14px #77777752;
+}
